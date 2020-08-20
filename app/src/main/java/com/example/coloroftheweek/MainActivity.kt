@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
             var color = randomColor()
             ctly_main.setBackgroundColor(Color.parseColor(color))
             btn_random_color.text = color
+            txv_color.text = color
         }
     }
 
